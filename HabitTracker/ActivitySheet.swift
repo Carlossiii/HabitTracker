@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ActivitySheet: View {
     @ObservedObject var activities: Activity
+    @Environment(\.dismiss) var dismiss
     
     @State private var title = ""
     @State private var description = ""
@@ -24,6 +25,7 @@ struct ActivitySheet: View {
                 Button("Save") {
                     let item = ActivityItem(title: title, description: description)
                     activities.items.append(item)
+                    dismiss()
                 }
             }
         }
