@@ -23,7 +23,7 @@ struct ActivitySheet: View {
             .navigationTitle("Add new habit")
             .toolbar {
                 Button("Save") {
-                    let item = ActivityItem(title: title, description: description)
+                    let item = ActivityItem(title: title, description: description, times: 0)
                     activities.items.append(item)
                     dismiss()
                 }

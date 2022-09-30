@@ -14,6 +14,7 @@
 		6747D6D428E62D9F009DC7E1 /* ActivityItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6747D6D328E62D9F009DC7E1 /* ActivityItem.swift */; };
 		6747D6D628E62F11009DC7E1 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6747D6D528E62F11009DC7E1 /* Activity.swift */; };
 		6747D6D828E6371A009DC7E1 /* ActivitySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6747D6D728E6371A009DC7E1 /* ActivitySheet.swift */; };
+		678E2C4C28E6679900312585 /* describedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E2C4B28E6679900312585 /* describedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		6747D6D328E62D9F009DC7E1 /* ActivityItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityItem.swift; sourceTree = "<group>"; };
 		6747D6D528E62F11009DC7E1 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		6747D6D728E6371A009DC7E1 /* ActivitySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySheet.swift; sourceTree = "<group>"; };
+		678E2C4B28E6679900312585 /* describedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = describedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				6747D6C528E62C09009DC7E1 /* HabitTrackerApp.swift */,
 				6747D6C728E62C09009DC7E1 /* ContentView.swift */,
+				678E2C4B28E6679900312585 /* describedView.swift */,
 				6747D6D728E6371A009DC7E1 /* ActivitySheet.swift */,
 				6747D6D328E62D9F009DC7E1 /* ActivityItem.swift */,
 				6747D6D528E62F11009DC7E1 /* Activity.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678E2C4C28E6679900312585 /* describedView.swift in Sources */,
 				6747D6D428E62D9F009DC7E1 /* ActivityItem.swift in Sources */,
 				6747D6C828E62C09009DC7E1 /* ContentView.swift in Sources */,
 				6747D6D828E6371A009DC7E1 /* ActivitySheet.swift in Sources */,

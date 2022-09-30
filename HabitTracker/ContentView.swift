@@ -15,7 +15,11 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(activities.items, id: \.id) { item in
-                    Text(item.title)
+                    NavigationLink {
+                        describedView(activities: activities, selected: item)
+                    } label: {
+                        Text(item.title)
+                    }
                 }
                 .onDelete(perform: removeItems)
             }

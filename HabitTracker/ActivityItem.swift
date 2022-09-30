@@ -11,4 +11,5 @@ struct ActivityItem: Identifiable, Codable, Equatable {
     var id = UUID()
     let title: String
     let description: String
+    var times: Int
 }
